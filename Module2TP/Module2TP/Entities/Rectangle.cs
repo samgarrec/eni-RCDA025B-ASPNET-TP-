@@ -8,6 +8,8 @@ namespace Module2TP.Entities
 {
     public class Rectangle : Forme
     {
+
+        // property
         public int Largeur { get; set; }
         public int Longueur { get; set; }
 
@@ -23,9 +25,9 @@ namespace Module2TP.Entities
 
         public override string ToString()
         {
-            return $"Rectangle de longueur {this.Longueur} et de largeur {this.Largeur}\n" +
+            return $"Rectangle de longueur  : {this.Longueur} et de largeur :  {this.Largeur}\n" +
                 $"Aire = {this.getAire()}\n" +
-                $"Périmètre = {this.getPerimetre()}\n";
+                $"Perimètre = {this.getPerimetre()}\n";
         }
 
     }

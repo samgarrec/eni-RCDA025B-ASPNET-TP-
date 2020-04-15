@@ -15,18 +15,19 @@ namespace Module2TP.Entities
             return this.Longueur * this.Longueur;
         }
 
-        public override double getPerimetre()
+    
+
+      
+            public override double getPerimetre()
         {
             return this.Longueur * 4;
         }
 
-        public override string ToString()
+          public override string ToString()
         {
-            return $"Carré de côté {this.Longueur}\n" +
+            return $"Carré de côté :  {this.Longueur}\n" +
                 $"Aire = {this.getAire()}\n" +
                 $"Périmètre = {this.getPerimetre()}\n";
         }
-
-
     }
 }

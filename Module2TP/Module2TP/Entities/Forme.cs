@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Module2TP.Entities
 {
+
+
+    //clase Mere 
     public abstract class Forme
     {
         public int Aire { get; set; }
